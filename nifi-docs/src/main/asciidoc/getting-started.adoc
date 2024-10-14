@@ -431,6 +431,7 @@ categorizing them by their functions.
 - *PutSNS*: Sends the contents of a FlowFile as a notification to the Amazon Simple Notification Service (SNS).
 - *GetSQS*: Pulls a message from the Amazon Simple Queuing Service (SQS) and writes the contents of the message to the content of the FlowFile.
 - *PutSQS*: Sends the contents of a FlowFile as a message to the Amazon Simple Queuing Service (SQS).
+- *PutSQSExtended*: Uses Amazon SQS Extended Client Library to send the contents of FlowFiles larger than 256K as messages to the Amazon Simple Queuing Service (SQS)
 - *DeleteSQS*: Deletes a message from the Amazon Simple Queuing Service (SQS). This can be used in conjunction with the GetSQS in order to receive
   a message from SQS, perform some processing on it, and then delete the object from the queue only after it has successfully completed processing.
 
