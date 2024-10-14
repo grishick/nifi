@@ -110,6 +110,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <inceptionYear>2014</inceptionYear>
         <com.amazonaws.version>1.12.772</com.amazonaws.version>
+        <amazon-sqs-java-extended-client-lib.version>1.2.6</amazon-sqs-java-extended-client-lib.version>
         <software.amazon.awssdk.version>2.28.13</software.amazon.awssdk.version>
         <gson.version>2.11.0</gson.version>
         <io.fabric8.kubernetes.client.version>6.13.4</io.fabric8.kubernetes.client.version>
@@ -436,7 +437,7 @@
             <dependency>
                 <groupId>com.amazonaws</groupId>
                 <artifactId>amazon-sqs-java-extended-client-lib</artifactId>
-                <version>${com.amazonaws.version}</version>
+                <version>${amazon-sqs-java-extended-client-lib.version}</version>
             </dependency>              
             <dependency>
                 <groupId>software.amazon.awssdk</groupId>
